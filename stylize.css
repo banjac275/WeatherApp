@@ -1,0 +1,22 @@
+body{
+    background-color: #3a3a3a;
+}
+
+#masterdiv {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    left: 25%;
+    font-size: 80px;
+    font-family: "Segoe UI";
+    color:beige;
+}
+
+#titleloc{
+    background-color: transparent;
+}
+
+#town{
+    font-size: 50px;
+}
