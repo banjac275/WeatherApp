@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Banji Weather App</title>
+    <link href='https://fonts.googleapis.com/css?family=Roboto:100,300,700,400' rel='stylesheet' type='text/css'>
     <script
             src="https://code.jquery.com/jquery-3.3.1.min.js"
             integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
@@ -18,11 +19,18 @@
     <link rel="stylesheet" href="stylize.css">
     <script src="manipulate.js"></script>
     <script src="https://use.fontawesome.com/7957a76e10.js"></script>
+    <script src="https://storage.googleapis.com/code-snippets/rapidapi.min.js"></script>
 </head>
 <body>
     <div class="col-lg-6 container" id="masterdiv">
         <div class="jumbotron col-lg-12 text-center" id="titleloc">Banji Weather App <i class="fa fa-sun-o" aria-hidden="true"></i> <i class="fa fa-cloud" aria-hidden="true"></i> <i class="fa fa-smile-o" aria-hidden="true"></i></div>
         <div class="col-lg-12 text-center" id="town"></div>
+        <div class="row" id="tempRow">
+            <div class="col-lg-12 text-center" id="temperature"></div>
+        </div>
+        <div class="col-lg-12 text-center" id="weatherInfo"></div>
+        <div class="col-lg-12" id="weatherIllustrated"></div>
+        <div class="col-lg-12 text-center" id="author">by <button type="button" id="aut">Banjac</button></div>
     </div>
     <script async defer
             src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA6dEp-u_gOJvEoobEVRRHYuLs5e9qRj5A&callback=geolocate">
